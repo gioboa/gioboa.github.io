@@ -1,4 +1,7 @@
-$font-family-base: Hind, sans-serif !default; // Hind font family
+@import '../fonts/Mina-Regular.ttf';
+@import '../fonts/Mina-Bold.ttf';
+
+$font-family-base: 'Mina', sans-serif;
 $font-family-sl-icons: Simple-Line-Icons !default; // Simple Line Icons third-party icons plugin
 
 // Colors
