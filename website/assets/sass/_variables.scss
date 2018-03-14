@@ -1,11 +1,5 @@
-// ==================================
-// Typography
-// ==================================
-//
-// Font, line-height, and color for body text, headings, and more.
-
-$font-family-base:                                              		Hind, sans-serif !default; // Hind font family
-$font-family-sl-icons:                                              	Simple-Line-Icons !default; // Simple Line Icons third-party icons plugin
+$font-family-base: Hind, sans-serif !default; // Hind font family
+$font-family-sl-icons: Simple-Line-Icons !default; // Simple Line Icons third-party icons plugin
 
 // Colors
 $color-base:                                                            #17bed2 !default;
@@ -15,13 +9,6 @@ $color-subtitle:                                                        #a6a7aa 
 $color-link:                                                        	#81848f !default;
 $color-link-hover:                                                      #999caa !default;
 $color-sky-light:                                                      	#fafafa !default;
-
-
-// ==================================
-// Media queries breakpoints
-// ==================================
-//
-//Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
 // Extra small screen / phone
 $screen-xs-min:                											480px !default;
