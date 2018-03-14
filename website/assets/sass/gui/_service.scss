@@ -5,6 +5,12 @@
 .service {
 	background: $color-white;
 	padding: 30px;
+	min-height: 400px;
+
+	@media (max-width: $screen-md-min) {
+		min-height: auto;
+		max-height: 250px;
+	}
 
 	.service-element,
 	.service-info {
