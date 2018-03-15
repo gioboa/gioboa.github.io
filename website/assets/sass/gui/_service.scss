@@ -5,7 +5,7 @@
 .service {
 	background: $color-white;
 	padding: 30px;
-	min-height: 400px;
+	min-height: 350px;
 
 	@media (max-width: $screen-md-min) {
 		min-height: auto;
@@ -14,7 +14,7 @@
 
 	.service-element,
 	.service-info {
-		@include translate3d(0,0,0);
+		@include translate3d(0, 0, 0);
 		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 	}
 
@@ -28,12 +28,12 @@
 	&:hover {
 		.service-element {
 			opacity: 0;
-			@include translate3d(0,-100%,0);
+			@include translate3d(0, -100%, 0);
 			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 		}
 
 		.service-info {
-			@include translate3d(0,-30%,0);
+			@include translate3d(0, -30%, 0);
 			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 		}
 	}

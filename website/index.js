@@ -4,6 +4,7 @@ require('./vendor/bootstrap/css/bootstrap.css');
 require('./assets/sass/layout.scss');
 // JS
 require('./vendor/bootstrap/js/bootstrap.js');
+require('./assets/imgs/favicon.png');
 
 var Layout = (function() {
 	// detect mobile device
