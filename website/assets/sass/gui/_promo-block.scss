@@ -5,6 +5,10 @@
 .promo-block {
 	padding: 220px 0 130px;
 
+	@media (max-width: $screen-md-min) {
+		padding: 120px 0 130px;
+	}
+
 	.promo-block-title {
 		@include font($size: 70px);
 		color: $color-white;

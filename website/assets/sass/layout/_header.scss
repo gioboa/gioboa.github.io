@@ -26,6 +26,10 @@
         padding: 0;
         margin: 35px 0;
 
+        @media (max-width: $screen-md-min) {
+            margin: 25px 0;
+        }
+
         .toggle-icon {
             @include position(relative);
             @include size(21px, 1px);
