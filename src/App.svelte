@@ -39,7 +39,7 @@
 			class="grid grid-cols-1 border-solid border-t-2 border-gray-500 dark:border-gray-300 text-center"
 		>
 			<div
-				class="text-2xl font-bold pt-[30px] pb-[25px] text-gray-700 dark:text-gray-400"
+				class="text-l font-bold pt-[30px] pb-[25px] text-gray-700 dark:text-gray-400"
 			>
 				© Giorgio Boa {new Date().getFullYear()}
 			</div>
