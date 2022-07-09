@@ -10,10 +10,10 @@
 	export let theme = 'light';
 	export let name = '';
 	export let title = '';
-	export let menuItems = [
-		{ href: '/', text: 'Home' },
-		// { href: '/activity-timeline', text: 'Activity timeline' },
-	];
+	// export let menuItems = [
+	// 	{ href: '/', text: 'Home' },
+	// 	// { href: '/activity-timeline', text: 'Activity timeline' },
+	// ];
 
 	$: isDark = theme === 'dark';
 </script>
@@ -30,7 +30,7 @@
 				</p>
 			</div>
 
-			<div class="space-x-8 hidden md:block">
+			<!-- <div class="space-x-8 hidden md:block">
 				{#each menuItems as item}
 					<Link to={item.href}>
 						<span class="text-gray-800 font-bold dark:text-gray-400">
@@ -38,7 +38,7 @@
 						</span>
 					</Link>
 				{/each}
-			</div>
+			</div> -->
 
 			<div class="space-x-4 flex flex-row items-center">
 				<SocialLinks />
@@ -67,7 +67,7 @@
 				</button>
 			</div>
 		</div>
-		<div class="space-x-8 block md:hidden mt-4">
+		<!-- <div class="space-x-8 block md:hidden mt-4">
 			{#each menuItems as item}
 				<Link to={item.href}>
 					<span class="text-gray-800 font-bold dark:text-gray-400">
@@ -75,6 +75,6 @@
 					</span>
 				</Link>
 			{/each}
-		</div>
+		</div> -->
 	</div>
 </div>
