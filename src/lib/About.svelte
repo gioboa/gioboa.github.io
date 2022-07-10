@@ -1,4 +1,4 @@
-<div id="about-me" class="bg-white dark:bg-gray-800 p-20">
+<div id="about-me" class="bg-white dark:bg-gray-800 md:p-20">
 	<div
 		class="grid grid-cols-1 lg:grid-cols-2 rounded-md border-solid border-2 border-gray-500 dark:border-gray-300"
 	>

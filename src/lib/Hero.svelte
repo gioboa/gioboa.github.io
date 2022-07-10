@@ -37,7 +37,7 @@
 
 <div class="flex flex-row justify-center items-start overflow-hidden">
 	<div
-		class="w-full md:w-1/2 mx-auto text-center lg:p-20 pb-10 text-gray-500 dark:text-gray-200"
+		class="w-full md:w-1/2 mx-auto text-center lg:p-20 pb-10 lg:pb-10 text-gray-500 dark:text-gray-200"
 	>
 		<h1
 			class="pt-10 lg:pt-0 text-4xl md:text-6xl text-gray-700 dark:text-gray-400 font-bold"
