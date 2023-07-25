@@ -8,8 +8,8 @@ export default component$(() => {
 					class='pt-10 mx-auto'
 					src='./profile_300x300.webp'
 					alt='Giorgio Boa profile picture'
-          width={300}
-          height={300}
+          width='300'
+          height='300'
 				/>
 				<div>
 					<div class='text-2xl md:text-4xl font-bold py-[30px] text-center text-gray-700 dark:text-gray-400'>
@@ -41,6 +41,7 @@ export default component$(() => {
 							<img
 								src='https://cdn.mentorcruise.com/img/banner/sky-sm.svg'
 								width='240'
+								height='240'
 								alt='MentorCruise'
 							/>
 						</a>
