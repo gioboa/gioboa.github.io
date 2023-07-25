@@ -1,5 +1,5 @@
 {
-  "manifestHash": "crt1fg",
+  "manifestHash": "d9j2rh",
   "symbols": {
     "s_Ops1uDnDKqc": {
       "origin": "app.tsx",
@@ -65,7 +65,7 @@
       "captures": false,
       "loc": [
         75,
-        2348
+        2440
       ]
     },
     "s_zGyELvqVO0s": {
@@ -138,15 +138,15 @@
     }
   },
   "mapping": {
-    "s_Ops1uDnDKqc": "entry_App-363a6047.js",
+    "s_Ops1uDnDKqc": "entry_App-1e87edc7.js",
     "s_dOkq6vaUmBM": "entry_hero-41219eae.js",
-    "s_AkbU84a8zes": "entry_App-363a6047.js",
+    "s_AkbU84a8zes": "entry_App-1e87edc7.js",
     "s_WVfw4Z5q0ck": "entry_hero-41219eae.js",
-    "s_lQ5QZvgtKZI": "entry_social_links-bb819cab.js",
-    "s_zGyELvqVO0s": "entry_navbar-f551563b.js",
+    "s_lQ5QZvgtKZI": "entry_social_links-01962896.js",
+    "s_zGyELvqVO0s": "entry_navbar-0207440f.js",
     "s_zazHtyInVnc": "entry_about-91e88881.js",
-    "s_8jR0HOV0NYw": "entry_App-363a6047.js",
-    "s_EHi0Vu5gzRM": "entry_App-363a6047.js",
+    "s_8jR0HOV0NYw": "entry_App-1e87edc7.js",
+    "s_EHi0Vu5gzRM": "entry_App-1e87edc7.js",
     "s_lEzOuIrzz0Q": "entry_hero-41219eae.js"
   },
   "bundles": {
@@ -169,7 +169,7 @@
         "s_zazHtyInVnc"
       ]
     },
-    "entry_App-363a6047.js": {
+    "entry_App-1e87edc7.js": {
       "size": 1920,
       "imports": [
         "core.min-40da0a71.js"
@@ -177,7 +177,7 @@
       "dynamicImports": [
         "entry_about-91e88881.js",
         "entry_hero-41219eae.js",
-        "entry_navbar-f551563b.js"
+        "entry_navbar-0207440f.js"
       ],
       "origins": [
         "src/components/about.tsx",
@@ -213,13 +213,13 @@
         "s_WVfw4Z5q0ck"
       ]
     },
-    "entry_navbar-f551563b.js": {
+    "entry_navbar-0207440f.js": {
       "size": 1485,
       "imports": [
         "core.min-40da0a71.js"
       ],
       "dynamicImports": [
-        "entry_social_links-bb819cab.js"
+        "entry_social_links-01962896.js"
       ],
       "origins": [
         "src/components/social-links.tsx",
@@ -230,8 +230,8 @@
         "s_zGyELvqVO0s"
       ]
     },
-    "entry_social_links-bb819cab.js": {
-      "size": 2211,
+    "entry_social_links-01962896.js": {
+      "size": 2285,
       "imports": [
         "core.min-40da0a71.js"
       ],
@@ -243,13 +243,13 @@
         "s_lQ5QZvgtKZI"
       ]
     },
-    "index-e1ffb6be.js": {
+    "index-bb78a474.js": {
       "size": 2277,
       "imports": [
         "core.min-40da0a71.js"
       ],
       "dynamicImports": [
-        "entry_App-363a6047.js"
+        "entry_App-1e87edc7.js"
       ],
       "origins": [
         "index.html",
