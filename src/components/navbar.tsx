@@ -12,8 +12,8 @@ export default component$<{
 			<div class='max-w-6xl mx-auto px-4 py-10 '>
 				<div class='flex md:flex-row justify-between items-center'>
 					<div class='flex flex-col'>
-						<h1 class='font-semibold text-xl dark:text-gray-100'>{name}</h1>
-						<p class='text-base font-light text-gray-500 dark:text-gray-300'>
+						<h1 class='font-semibold txext-xl text-gray-700 dark:text-gray-100'>{name}</h1>
+						<p class='text-base font-light text-gray-700 dark:text-gray-100'>
 							{title}
 						</p>
 					</div>

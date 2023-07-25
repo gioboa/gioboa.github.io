@@ -40,7 +40,7 @@ export const App = component$(() => {
 				<About />
 			</div>
 			<div class='grid grid-cols-1 border-solid border-t-2 border-gray-500 dark:border-gray-300 text-center'>
-				<div class='text-l font-bold pt-[30px] pb-[25px] text-gray-700 dark:text-gray-400'>
+				<div class='text-l font-bold pt-[30px] pb-[25px] text-gray-700 dark:text-gray-100'>
 					© Giorgio Boa {new Date().getFullYear()}
 				</div>
 			</div>

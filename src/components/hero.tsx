@@ -36,17 +36,17 @@ export default component$<{
 	return (
 		<div class='flex flex-row justify-center items-start overflow-hidden'>
 			<div class='w-full md:w-1/2 mx-auto text-center lg:p-20 pb-10 lg:pb-10 text-gray-500 dark:text-gray-200'>
-				<h1 class='pt-10 lg:pt-0 text-4xl md:text-6xl text-gray-700 dark:text-gray-400 font-bold'>
+				<h1 class='pt-10 lg:pt-0 text-4xl md:text-6xl text-gray-700 dark:text-gray-100 font-bold'>
 					{name}
 				</h1>
-				<h1 class='text-l md:text-2xl pt-2'>{title}</h1>
-				<h1 class='text-l md:text-2xl pt-2'>{subTitleSig.value}</h1>
+				<h1 class='text-l md:text-2xl pt-2 text-gray-700 dark:text-gray-100'>{title}</h1>
+				<h1 class='text-l md:text-2xl pt-2 text-gray-700 dark:text-gray-100'>{subTitleSig.value}</h1>
 				<div
 					class='animate-bounce mx-auto mt-10 p-2 w-10 h-10 bg-white dark:bg-slate-800 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full'
 					onClick$={scrollToAbout}
 				>
 					<svg
-						class='w-6 h-6 text-gray-700 dark:text-gray-400'
+						class='w-6 h-6 text-gray-700 dark:text-gray-100'
 						fill='none'
 						stroke-linecap='round'
 						stroke-linejoin='round'

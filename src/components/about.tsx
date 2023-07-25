@@ -12,10 +12,10 @@ export default component$(() => {
           height='300'
 				/>
 				<div>
-					<div class='text-2xl md:text-4xl font-bold py-[30px] text-center text-gray-700 dark:text-gray-400'>
+					<div class='text-2xl md:text-4xl font-bold py-[30px] text-center text-gray-700 dark:text-gray-100'>
 						About Me
 					</div>
-					<div class='px-20 text-xl text-gray-700 dark:text-gray-400'>
+					<div class='px-20 text-xl text-gray-700 dark:text-gray-100'>
 						I'm a full stack developer and the front-end ecosystem is my
 						passion. I started to develop application in 2006 and in 2012 I fall
 						in love with JavaScript

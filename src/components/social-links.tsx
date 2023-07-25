@@ -24,7 +24,7 @@ export default component$(() => {
 				<a
 					key={key}
 					href={link.href}
-					class='text-base font-normal text-gray-600 dark:text-gray-300'
+					class='text-base font-normal text-gray-700 dark:text-gray-100'
 					aria-label={link.label}
 				>
 					<svg
