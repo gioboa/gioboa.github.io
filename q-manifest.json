@@ -1,5 +1,5 @@
 {
-  "manifestHash": "eppyck",
+  "manifestHash": "crt1fg",
   "symbols": {
     "s_Ops1uDnDKqc": {
       "origin": "app.tsx",
@@ -91,7 +91,7 @@
       "captures": false,
       "loc": [
         75,
-        1616
+        1637
       ]
     },
     "s_8jR0HOV0NYw": {
@@ -138,15 +138,15 @@
     }
   },
   "mapping": {
-    "s_Ops1uDnDKqc": "entry_App-ab699e7d.js",
+    "s_Ops1uDnDKqc": "entry_App-363a6047.js",
     "s_dOkq6vaUmBM": "entry_hero-41219eae.js",
-    "s_AkbU84a8zes": "entry_App-ab699e7d.js",
+    "s_AkbU84a8zes": "entry_App-363a6047.js",
     "s_WVfw4Z5q0ck": "entry_hero-41219eae.js",
     "s_lQ5QZvgtKZI": "entry_social_links-bb819cab.js",
     "s_zGyELvqVO0s": "entry_navbar-f551563b.js",
-    "s_zazHtyInVnc": "entry_about-0309e16b.js",
-    "s_8jR0HOV0NYw": "entry_App-ab699e7d.js",
-    "s_EHi0Vu5gzRM": "entry_App-ab699e7d.js",
+    "s_zazHtyInVnc": "entry_about-91e88881.js",
+    "s_8jR0HOV0NYw": "entry_App-363a6047.js",
+    "s_EHi0Vu5gzRM": "entry_App-363a6047.js",
     "s_lEzOuIrzz0Q": "entry_hero-41219eae.js"
   },
   "bundles": {
@@ -156,8 +156,8 @@
         "node_modules/@builder.io/qwik/core.min.mjs"
       ]
     },
-    "entry_about-0309e16b.js": {
-      "size": 1700,
+    "entry_about-91e88881.js": {
+      "size": 1717,
       "imports": [
         "core.min-40da0a71.js"
       ],
@@ -169,13 +169,13 @@
         "s_zazHtyInVnc"
       ]
     },
-    "entry_App-ab699e7d.js": {
+    "entry_App-363a6047.js": {
       "size": 1920,
       "imports": [
         "core.min-40da0a71.js"
       ],
       "dynamicImports": [
-        "entry_about-0309e16b.js",
+        "entry_about-91e88881.js",
         "entry_hero-41219eae.js",
         "entry_navbar-f551563b.js"
       ],
@@ -243,13 +243,13 @@
         "s_lQ5QZvgtKZI"
       ]
     },
-    "index-9f8651cb.js": {
+    "index-e1ffb6be.js": {
       "size": 2277,
       "imports": [
         "core.min-40da0a71.js"
       ],
       "dynamicImports": [
-        "entry_App-ab699e7d.js"
+        "entry_App-363a6047.js"
       ],
       "origins": [
         "index.html",
@@ -284,6 +284,6 @@
     "rollup": "3.26.3",
     "env": "node",
     "os": "linux",
-    "node": "18.17.0"
+    "node": "18.16.1"
   }
 }
