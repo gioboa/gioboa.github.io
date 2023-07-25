@@ -6,7 +6,7 @@ export default component$(() => {
 			<div class='grid grid-cols-1 md:rounded-md md:border-solid md:border-2 md:border-gray-500 dark:border-gray-300'>
 				<img
 					class='pt-10 mx-auto'
-					src='./profile_300x300.webp'
+					src='./profile_450x450.webp'
 					alt='Giorgio Boa profile picture'
           width='300'
           height='300'
