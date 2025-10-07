@@ -1,6 +1,6 @@
 {
 	"version": "1",
-	"manifestHash": "td0xcl",
+	"manifestHash": "nwz31k",
 	"options": {
 		"target": "client",
 		"buildMode": "production",
@@ -269,7 +269,7 @@
 			"size": 9536
 		},
 		"index.html": {
-			"size": 998
+			"size": 1338
 		},
 		"assets/bundle-graph-CFfX7CC9.json": {
 			"name": "bundle-graph.json",
