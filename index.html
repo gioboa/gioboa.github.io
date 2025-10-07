@@ -1,18 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta
+      name="description"
+      content="I'm a full stack developer and the front-end ecosystem is my passion. I started to develop application in 2006 and in 2012 I fall in love with JavaScript.I'm active in open source ecosystem, I love learn and study new things.I also really enjoy public speaking and sharing my experiences.I'm very ambitious and I try to improve myself every day.I'm giving FREE mentoring.In all these years I learned a lot from communities and open source.Now I want to give something back in my spare time."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giorgio Boa website</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="/favicon.png" />
-  <meta name="description"
-    content="I'm a full stack developer and the front-end ecosystem is my passion. I started to develop application in 2006 and in 2012 I fall in love with JavaScript.I'm active in open source ecosystem, I love learn and study new things.I also really enjoy public speaking and sharing my experiences.I'm very ambitious and I try to improve myself every day.I'm giving FREE mentoring.In all these years I learned a lot from communities and open source.Now I want to give something back in my spare time." />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Giorgio Boa website</title>
-</head>
+    <script async type="module" src="@qwik.dev/core/qwikloader.js">
+      // ^ This is the QwikLoader, it's required for Qwik to work
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+    <script type="module">
+      import { render, jsx } from "@qwik.dev/core";
+      import Root from "./src/root";
 
+      /** This renders your application */
+      render(document.querySelector("#root"), jsx(Root));
+    </script>
+  </body>
 </html>
