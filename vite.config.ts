@@ -1,11 +1,22 @@
-import { defineConfig } from 'vite'
-import { qwikVite } from '@builder.io/qwik/optimizer'
+import { qwikVite } from "@qwik.dev/core/optimizer";
+import { defineConfig, type UserConfig } from "vite";
+import tsconfigPaths from "vite-tsconfig-paths";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [
-    qwikVite({
-      csr: true,
-    }),
-  ],
-})
+export default defineConfig((config): UserConfig => {
+  return {
+    plugins: [
+      qwikVite({ csr: true }),
+      tsconfigPaths({ root: "." }),
+      config.mode === "development" &&
+      viteStaticCopy({
+        targets: [
+          {
+            src: "./node_modules/@qwik.dev/core/dist/qwikloader.js",
+            dest: "@qwik.dev/core",
+          },
+        ],
+      }),
+    ],
+  };
+});
