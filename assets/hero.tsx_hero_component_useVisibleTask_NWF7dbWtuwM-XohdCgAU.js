@@ -1,0 +1,1 @@
+import{z as l}from"./handlers-DkonAZ4x.js";import"./preloader-BpwXJxZQ.js";const o=({cleanup:r})=>{const[a,t]=l();let e=!0;const n=setInterval(()=>{t.value===a.greeting.length?e=!1:t.value===a.minLenght&&(e=!0),t.value+=e?1:-1},200);r(()=>{n&&clearInterval(n)})};export{o as s_NWF7dbWtuwM};
