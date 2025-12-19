@@ -1,4 +1,4 @@
-import { $, component$, useSignal, useVisibleTask$ } from '@builder.io/qwik';
+import { $, component$, useSignal, useVisibleTask$ } from '@qwik.dev/core';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import About from './components/about';

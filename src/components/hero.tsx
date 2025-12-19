@@ -3,7 +3,7 @@ import {
 	useComputed$,
 	useSignal,
 	useVisibleTask$,
-} from '@builder.io/qwik';
+} from '@qwik.dev/core';
 
 export default component$<{
 	title: string;
@@ -46,7 +46,7 @@ export default component$<{
 					onClick$={scrollToAbout}
 				>
 					<svg
-						class='w-6 h-6 text-gray-700 dark:text-gray-100'
+						class='pl-[2px] w-6 h-6 text-gray-700 dark:text-gray-100'
 						fill='none'
 						stroke-linecap='round'
 						stroke-linejoin='round'
