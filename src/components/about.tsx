@@ -9,7 +9,7 @@ export default component$(() => {
 						<div class='about-card__media-frame about-card__media-frame--alt'>
 							<img
 								class='about-card__logos'
-								src='./logos.png'
+								src='./logos.webp'
 								alt='Open source developer logos'
 								width='752'
 								height='571'
