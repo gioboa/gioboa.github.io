@@ -1,63 +1,48 @@
-import {
-	component$,
-	useComputed$,
-	useSignal,
-	useVisibleTask$,
-} from '@qwik.dev/core';
+import { component$ } from '@qwik.dev/core';
 
 export default component$<{
 	title: string;
 	name: string;
 	scrollToAbout: () => void;
 }>(({ title, name, scrollToAbout }) => {
-	const data = { minLenght: 8, greeting: `Hello 👋 nice to meet you...  ` };
-	const maxCharsSig = useSignal(data.minLenght);
-	const subTitleSig = useComputed$(() =>
-		data.greeting.substring(0, maxCharsSig.value)
-	);
-
-	useVisibleTask$(({ cleanup }) => {
-		let increment = true;
-		const intervalRef = setInterval(() => {
-			maxCharsSig.value === data.greeting.length
-				? (increment = false)
-				: maxCharsSig.value === data.minLenght
-				? (increment = true)
-				: (increment = increment);
-			maxCharsSig.value += increment ? 1 : -1;
-		}, 200);
-		cleanup(() => {
-			if (!!intervalRef) {
-				clearInterval(intervalRef);
-			}
-		});
-	});
-
 	return (
-		<div class='flex flex-row justify-center items-start overflow-hidden'>
-			<div class='w-full md:w-1/2 mx-auto text-center lg:p-20 pb-10 lg:pb-10 text-gray-500 dark:text-gray-200'>
-				<h1 class='pt-10 lg:pt-0 text-4xl md:text-6xl text-gray-700 dark:text-gray-100 font-bold'>
-					{name}
-				</h1>
-				<h1 class='text-l md:text-2xl pt-2 text-gray-700 dark:text-gray-100'>{title}</h1>
-				<h1 class='text-l md:text-2xl pt-2 text-gray-700 dark:text-gray-100'>{subTitleSig.value}</h1>
-				<div
-					class='animate-bounce mx-auto mt-10 p-2 w-10 h-10 bg-white dark:bg-slate-800 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full'
-					onClick$={scrollToAbout}
-				>
-					<svg
-						class='pl-[1px] w-6 h-6 text-gray-700 dark:text-gray-100 cursor-pointer'
-						fill='none'
-						stroke-linecap='round'
-						stroke-linejoin='round'
-						stroke-width='2'
-						viewBox='0 0 24 24'
-						stroke='currentColor'
-					>
-						<path d='M19 14l-7 7m0 0l-7-7m7 7V3' />
-					</svg>
+		<section id='top' class='hero-section'>
+			<div class='hero-shell'>
+				<div class='hero-copy reveal-up' data-reveal>
+		<h2 class='hero-copy__title'>{name}</h2>
+					<p class='hero-copy__subtitle'>{title}</p>
+					<p class='hero-copy__body'>
+						I build products, care about front-end craft, and keep pushing for
+						clearer, faster, better experiences.
+					</p>
+
+					<div class='hero-copy__meta'>
+						<div class='hero-stat'>
+							<span class='hero-stat__value'>2006</span>
+							<span class='hero-stat__label'>Started building apps</span>
+						</div>
+						<div class='hero-stat'>
+							<span class='hero-stat__value'>2012</span>
+							<span class='hero-stat__label'>JavaScript clicked</span>
+						</div>
+					</div>
+
+					<div class='hero-copy__actions'>
+						<button class='hero-button hero-button--primary' onClick$={scrollToAbout}>
+							Explore profile
+						</button>
+						<a
+							class='hero-button hero-button--ghost'
+							href='https://mentorcruise.com/mentor/giorgioboa/'
+						>
+							Free mentoring
+						</a>
+					</div>
+				</div>
+				<div class='hero-overlay-box reveal-right' data-reveal>
+					<img src='/profile_450x450.webp' alt='Giorgio Boa' class='hero-overlay-box__img' />
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 });

@@ -24,7 +24,7 @@ export default component$(() => {
 				<a
 					key={key}
 					href={link.href}
-					class='text-base font-normal text-gray-700 dark:text-gray-100'
+					class='social-link'
 					aria-label={link.label}
 				>
 					<svg
@@ -32,7 +32,7 @@ export default component$(() => {
 						width='16'
 						height='16'
 						fill='currentColor'
-						class='h-5 w-5'
+						class='h-4 w-4'
 						viewBox='0 0 16 16'
 					>
 						<path fill-rule='evenodd' d={link.path} />
