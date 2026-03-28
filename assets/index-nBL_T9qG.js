@@ -1,0 +1,1 @@
+import"./qwikloader-m1ILMiL5.js";import{z as o,a as t,Q as r,f as _}from"./handlers-JHLr81hJ.js";import{_ as s}from"./preload-helper-CVfkMyKi.js";import"./preloader-BpwXJxZQ.js";const m=t(()=>s(()=>import("./root.tsx_root_component_FZKxZdRzyEc-NAn9je0C.js"),[]),"s_FZKxZdRzyEc"),a=o(m);r(document.querySelector("#root"),_(a));

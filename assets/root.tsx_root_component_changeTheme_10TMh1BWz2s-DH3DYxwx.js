@@ -1,1 +1,0 @@
-import{z as e}from"./handlers-DkonAZ4x.js";import"./preloader-BpwXJxZQ.js";const t=()=>{const[a]=e();a.value==="dark"?a.value="light":a.value="dark",document.body.className=a.value==="dark"?"dark":""};export{t as s_10TMh1BWz2s};

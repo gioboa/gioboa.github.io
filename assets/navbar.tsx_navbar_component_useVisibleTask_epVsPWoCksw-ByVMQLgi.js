@@ -1,0 +1,1 @@
+import{g as r}from"./handlers-JHLr81hJ.js";import"./preloader-BpwXJxZQ.js";const s=()=>{const n=r[0],t=r[1];let e=!0;const a=window.setInterval(()=>{t.value===n.greeting.length?e=!1:t.value===n.minLenght&&(e=!0),t.value+=e?1:-1},200);return()=>window.clearInterval(a)};export{s as s_epVsPWoCksw};
